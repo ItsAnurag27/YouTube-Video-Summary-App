@@ -1,0 +1,46 @@
+# Ignore the .env file containing API keys
+.env
+
+# Ignore Python cache files
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+
+# Ignore Streamlit logs
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build files
+/build/
+/dist/
+
+# Ignore log files
+*.log
+
+# Ignore pip and package manager caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled Python files
+*.so
+
+# Ignore Google API credentials
+credentials.json
+
+# Ignore any temp or backup files
+*.bak
+*.swp
+*.tmp
